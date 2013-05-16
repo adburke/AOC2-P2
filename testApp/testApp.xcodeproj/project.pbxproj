@@ -18,6 +18,11 @@
 		96283CEF1745A91B0060AB90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96283CEE1745A91B0060AB90 /* Default-568h@2x.png */; };
 		96283CF21745A91B0060AB90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283CF11745A91B0060AB90 /* ViewController.m */; };
 		96283CF51745A91B0060AB90 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96283CF31745A91B0060AB90 /* ViewController.xib */; };
+		96283D051745A9CD0060AB90 /* baseWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283CFC1745A9CD0060AB90 /* baseWorkout.m */; };
+		96283D061745A9CD0060AB90 /* runWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283CFD1745A9CD0060AB90 /* runWorkout.m */; };
+		96283D071745A9CD0060AB90 /* swimWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283CFE1745A9CD0060AB90 /* swimWorkout.m */; };
+		96283D081745A9CD0060AB90 /* weightWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283CFF1745A9CD0060AB90 /* weightWorkout.m */; };
+		96283D091745A9CD0060AB90 /* workoutFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283D001745A9CD0060AB90 /* workoutFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,16 @@
 		96283CF01745A91B0060AB90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		96283CF11745A91B0060AB90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		96283CF41745A91B0060AB90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		96283CFB1745A9CD0060AB90 /* baseWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseWorkout.h; sourceTree = "<group>"; };
+		96283CFC1745A9CD0060AB90 /* baseWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseWorkout.m; sourceTree = "<group>"; };
+		96283CFD1745A9CD0060AB90 /* runWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = runWorkout.m; sourceTree = "<group>"; };
+		96283CFE1745A9CD0060AB90 /* swimWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = swimWorkout.m; sourceTree = "<group>"; };
+		96283CFF1745A9CD0060AB90 /* weightWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weightWorkout.m; sourceTree = "<group>"; };
+		96283D001745A9CD0060AB90 /* workoutFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = workoutFactory.m; sourceTree = "<group>"; };
+		96283D011745A9CD0060AB90 /* runWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runWorkout.h; sourceTree = "<group>"; };
+		96283D021745A9CD0060AB90 /* swimWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swimWorkout.h; sourceTree = "<group>"; };
+		96283D031745A9CD0060AB90 /* weightWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weightWorkout.h; sourceTree = "<group>"; };
+		96283D041745A9CD0060AB90 /* workoutFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = workoutFactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +98,16 @@
 		96283CDE1745A91B0060AB90 /* testApp */ = {
 			isa = PBXGroup;
 			children = (
+				96283CFB1745A9CD0060AB90 /* baseWorkout.h */,
+				96283CFC1745A9CD0060AB90 /* baseWorkout.m */,
+				96283CFD1745A9CD0060AB90 /* runWorkout.m */,
+				96283CFE1745A9CD0060AB90 /* swimWorkout.m */,
+				96283CFF1745A9CD0060AB90 /* weightWorkout.m */,
+				96283D001745A9CD0060AB90 /* workoutFactory.m */,
+				96283D011745A9CD0060AB90 /* runWorkout.h */,
+				96283D021745A9CD0060AB90 /* swimWorkout.h */,
+				96283D031745A9CD0060AB90 /* weightWorkout.h */,
+				96283D041745A9CD0060AB90 /* workoutFactory.h */,
 				96283CE71745A91B0060AB90 /* AppDelegate.h */,
 				96283CE81745A91B0060AB90 /* AppDelegate.m */,
 				96283CF01745A91B0060AB90 /* ViewController.h */,
@@ -176,6 +201,11 @@
 				96283CE51745A91B0060AB90 /* main.m in Sources */,
 				96283CE91745A91B0060AB90 /* AppDelegate.m in Sources */,
 				96283CF21745A91B0060AB90 /* ViewController.m in Sources */,
+				96283D051745A9CD0060AB90 /* baseWorkout.m in Sources */,
+				96283D061745A9CD0060AB90 /* runWorkout.m in Sources */,
+				96283D071745A9CD0060AB90 /* swimWorkout.m in Sources */,
+				96283D081745A9CD0060AB90 /* weightWorkout.m in Sources */,
+				96283D091745A9CD0060AB90 /* workoutFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +330,7 @@
 				96283CFA1745A91B0060AB90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
