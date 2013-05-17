@@ -14,6 +14,20 @@
 
 @implementation InfoView
 
+-(IBAction)onClick:(id)sender
+{
+    UIButton *button = (UIButton*)sender;
+    if (button) {
+        if (button.tag == 0) {
+            NSLog(@"Close Modal Pressed");
+            [self dismissViewControllerAnimated:TRUE completion:nil];
+        } else if (button.tag == 1) {
+            
+        }
+    }
+}
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

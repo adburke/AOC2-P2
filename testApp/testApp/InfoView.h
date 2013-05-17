@@ -9,5 +9,11 @@
 #import "ViewController.h"
 
 @interface InfoView : ViewController
+{
+    
+}
+
+-(IBAction)onClick:(id)sender;
+
 
 @end
