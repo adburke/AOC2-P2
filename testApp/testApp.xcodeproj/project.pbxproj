@@ -23,6 +23,8 @@
 		96283D071745A9CD0060AB90 /* swimWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283CFE1745A9CD0060AB90 /* swimWorkout.m */; };
 		96283D081745A9CD0060AB90 /* weightWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283CFF1745A9CD0060AB90 /* weightWorkout.m */; };
 		96283D091745A9CD0060AB90 /* workoutFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283D001745A9CD0060AB90 /* workoutFactory.m */; };
+		96283D0D1745AC860060AB90 /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283D0B1745AC860060AB90 /* InfoView.m */; };
+		96283D0E1745AC860060AB90 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96283D0C1745AC860060AB90 /* InfoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,9 @@
 		96283D021745A9CD0060AB90 /* swimWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swimWorkout.h; sourceTree = "<group>"; };
 		96283D031745A9CD0060AB90 /* weightWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weightWorkout.h; sourceTree = "<group>"; };
 		96283D041745A9CD0060AB90 /* workoutFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = workoutFactory.h; sourceTree = "<group>"; };
+		96283D0A1745AC860060AB90 /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		96283D0B1745AC860060AB90 /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		96283D0C1745AC860060AB90 /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,9 @@
 				96283CF11745A91B0060AB90 /* ViewController.m */,
 				96283CF31745A91B0060AB90 /* ViewController.xib */,
 				96283CDF1745A91B0060AB90 /* Supporting Files */,
+				96283D0A1745AC860060AB90 /* InfoView.h */,
+				96283D0B1745AC860060AB90 /* InfoView.m */,
+				96283D0C1745AC860060AB90 /* InfoView.xib */,
 			);
 			path = testApp;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 				96283CED1745A91B0060AB90 /* Default@2x.png in Resources */,
 				96283CEF1745A91B0060AB90 /* Default-568h@2x.png in Resources */,
 				96283CF51745A91B0060AB90 /* ViewController.xib in Resources */,
+				96283D0E1745AC860060AB90 /* InfoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +215,7 @@
 				96283D071745A9CD0060AB90 /* swimWorkout.m in Sources */,
 				96283D081745A9CD0060AB90 /* weightWorkout.m in Sources */,
 				96283D091745A9CD0060AB90 /* workoutFactory.m in Sources */,
+				96283D0D1745AC860060AB90 /* InfoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
