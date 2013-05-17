@@ -149,6 +149,7 @@
 
 - (void)viewDidLoad
 {
+    textField.text = @"Calculation of Calories";
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
