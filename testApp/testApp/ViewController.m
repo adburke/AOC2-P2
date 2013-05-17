@@ -129,6 +129,23 @@
     }
 }
 
+-(IBAction)onChange:(id)sender
+{
+    UISegmentedControl *segCntrl = (UISegmentedControl*)sender;
+    if (segCntrl) {
+        int index = segCntrl.selectedSegmentIndex;
+        NSLog(@"Index #:%d selected", index);
+        if (segCntrl.selectedSegmentIndex == 0) {
+            self.view.backgroundColor = [UIColor blueColor];
+        } else if (segCntrl.selectedSegmentIndex == 1) {
+            self.view.backgroundColor = [UIColor yellowColor];
+        } else if (segCntrl.selectedSegmentIndex == 2) {
+            self.view.backgroundColor = [UIColor orangeColor];
+        } else if (segCntrl.selectedSegmentIndex == 3) {
+            self.view.backgroundColor = [UIColor whiteColor];
+        }
+    }
+}
 
 - (void)viewDidLoad
 {
