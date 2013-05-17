@@ -25,6 +25,7 @@
 		96283D091745A9CD0060AB90 /* workoutFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283D001745A9CD0060AB90 /* workoutFactory.m */; };
 		96283D0D1745AC860060AB90 /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96283D0B1745AC860060AB90 /* InfoView.m */; };
 		96283D0E1745AC860060AB90 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96283D0C1745AC860060AB90 /* InfoView.xib */; };
+		96283D101745B01A0060AB90 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96283D0F1745B01A0060AB90 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		96283D0A1745AC860060AB90 /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
 		96283D0B1745AC860060AB90 /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
 		96283D0C1745AC860060AB90 /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		96283D0F1745B01A0060AB90 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96283D101745B01A0060AB90 /* MessageUI.framework in Frameworks */,
 				96283CD91745A91B0060AB90 /* UIKit.framework in Frameworks */,
 				96283CDB1745A91B0060AB90 /* Foundation.framework in Frameworks */,
 				96283CDD1745A91B0060AB90 /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +79,7 @@
 		96283CCC1745A91B0060AB90 = {
 			isa = PBXGroup;
 			children = (
+				96283D0F1745B01A0060AB90 /* MessageUI.framework */,
 				96283CDE1745A91B0060AB90 /* testApp */,
 				96283CD71745A91B0060AB90 /* Frameworks */,
 				96283CD61745A91B0060AB90 /* Products */,

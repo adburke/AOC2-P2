@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface InfoView : ViewController
+@interface InfoView : ViewController <MFMailComposeViewControllerDelegate>
 {
     
 }
