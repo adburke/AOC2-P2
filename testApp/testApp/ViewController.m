@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "InfoView.h"
 
 @interface ViewController ()
 

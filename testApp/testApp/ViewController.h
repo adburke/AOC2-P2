@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "workoutFactory.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate> 
 {
     IBOutlet UITextField *textField;
     IBOutlet UIButton *weightButton;
