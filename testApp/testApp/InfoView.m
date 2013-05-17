@@ -22,7 +22,18 @@
             NSLog(@"Close Modal Pressed");
             [self dismissViewControllerAnimated:TRUE completion:nil];
         } else if (button.tag == 1) {
-            
+            NSLog(@"Email Me Pressed");
+            // Create mail object and link to delegate method below
+            if ([MFMailComposeViewController canSendMail]) {
+                MFMailComposeViewController *sendMail = [[MFMailComposeViewController alloc] init];
+                if (sendMail) {
+                    sendMail.mailComposeDelegate = self;
+                    [sendMail setSubject:@"Email from Test App!"];
+                    [sendMail setMessageBody:@"Test Email" isHTML:FALSE];
+                    [sendMail setToRecipients:@[@"aaronburke@fullsail.edu"]];
+                    [self presentViewController:sendMail animated:YES completion:nil];
+                }
+            }
         }
     }
 }
