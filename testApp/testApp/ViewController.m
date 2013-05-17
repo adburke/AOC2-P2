@@ -14,6 +14,22 @@
 
 @implementation ViewController
 
+-(IBAction)onClickIncr:(id)sender
+{
+    if (stepper){
+        if (stepper.tag == 0 && workoutType) {
+            NSLog(@"step pressed");
+            currentValue = stepper.value;
+            if (currentValue > 1) {
+                textField.text = [NSString stringWithFormat:@"%d %@ Workouts", currentValue, workoutType];
+            } else {
+                textField.text = [NSString stringWithFormat:@"%d %@ Workout", currentValue, workoutType];
+            }
+            
+        }
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
